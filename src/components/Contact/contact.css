@@ -1,0 +1,122 @@
+#contactPage {
+    min-height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 60rem;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contactPageTitle {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.clientDesc {
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+.clientImgs {
+    margin: 1rem 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.clientImg {
+    object-fit: cover;
+    width: 23%;
+    min-width: 9rem;
+    margin: auto;
+    padding: 0.25rem;
+}
+
+.clients {
+    padding: 2rem;
+}
+
+.contactDesc {
+    padding: 1rem;
+    font-size: medium;
+    font-weight: 300;
+}
+
+.contactForm {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+    max-width: 60rem;
+}
+
+.name, .email, .msg {
+    font-size: medium;
+    width: 100%;
+    max-width: 40rem;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    background: rgb(40, 40, 40);
+}
+
+.submitBtn {
+    background: white;
+    border: none;
+    border-radius: 0.5rem;
+    margin: 2rem;
+    padding: 0.75rem 3.5rem;
+
+}
+
+.submitBtn:hover {
+    background: #fff;
+    box-shadow: 0 0 5px #fff, 0 0 25px #fff, 0 0 50px #fff, 0 0 200px #fff;
+}
+
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem;
+}
+
+.link1, .link2, .link3, .link4 {
+    object-fit: cover;
+    height: 3rem;
+    width: 3rem;
+    margin: 0 0.75rem;
+}
+
+.link1:hover {
+    background: #200be2;
+    border: none;
+    border-radius: 2rem;
+    box-shadow: 0 0 5px #200be2, 0 0 25px #200be2, 0 0 50px #200be2, 0 0 100px #200be2;
+}
+
+.link2:hover {
+    background: #06a5ea;
+    border: none;
+    border-radius: 0.1%;
+    box-shadow: 0 0 5px #06a5ea, 0 0 25px #06a5ea, 0 0 50px #06a5ea, 0 0 100px #06a5ea;
+}
+
+.link3:hover {
+    background: #906969;
+    border: none;
+    border-radius: 2rem;
+    box-shadow: 0 0 5px #906969, 0 0 25px #906969, 0 0 50px #906969, 0 0 100px #906969;
+}
+
+.link4:hover {
+    background: #be09b8;
+    border: none;
+    border-radius: 0.1%;
+    box-shadow: 0 0 5px #be09b8, 0 0 25px #be09b8, 0 0 50px #be09b8, 0 0 100px #be09b8;
+}
